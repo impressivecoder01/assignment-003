@@ -35,3 +35,12 @@ if(fileName.trim()[0]==='#'){
 // else{
 //     for(var file of fileName)
 // }
+
+
+// Problem 05 - ( PH Email Generator )
+var student= { name: "jhankar" , roll: 1014 ,department: "eee" };
+console.log(student[`name`]+student[`roll`]+'.'+student[`department`]+'@ph.ac.bd')
+
+// Problem 06 :  (Current Salary )
+var experience = 30;
+var startingSalary = 45000;
