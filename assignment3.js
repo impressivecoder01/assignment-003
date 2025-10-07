@@ -25,3 +25,13 @@ if(lastDay>3 && lastDay <=30){
         console.log(`'1 - rest\','2 - rest','3 - medicine',`)
     }
 }
+
+
+// Problem 04 - (Delete / Store)
+var fileName= "pdfData.jpg";
+if(fileName.trim()[0]==='#'){
+    console.log('Store')
+}
+// else{
+//     for(var file of fileName)
+// }
