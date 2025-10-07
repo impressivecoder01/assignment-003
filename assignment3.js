@@ -20,3 +20,8 @@ else{
 
 // Problem -03 ( Medicine Planner )
 var lastDay = 11 ;
+if(lastDay>3 && lastDay <=30){
+    if(lastDay%2===0){
+        console.log(`'1 - rest\','2 - rest','3 - medicine',`)
+    }
+}
