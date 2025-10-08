@@ -42,5 +42,13 @@ var student= { name: "jhankar" , roll: 1014 ,department: "eee" };
 console.log(student[`name`]+student[`roll`]+'.'+student[`department`]+'@ph.ac.bd')
 
 // Problem 06 :  (Current Salary )
-var experience = 30;
-var startingSalary = 45000;
+var experience = 3;
+var startingSalary = 15000;
+var currentSalary = startingSalary;
+if((startingSalary > 0 && startingSalary<=10**6)&& (experience > 0 && experience <= 50)){
+    for(var i = 1; i<=experience; i++){
+        // increment = startingSalary*0.05;
+    currentSalary = currentSalary + currentSalary*0.05;
+}
+console.log(currentSalary.toFixed(2))
+}
